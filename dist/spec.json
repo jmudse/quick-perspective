@@ -1,0 +1,19 @@
+{
+	"name": "Quick_Perspective",
+	"extensions": [
+	{
+		"perspective": "quickPerspective",
+		"features": [{
+			"id": "com.ibm.quickPerspective",
+			"content": {
+				"type": "v1/ext/Quick_Perspective/index",
+				"options": {
+					"info":{
+						"title": "Quick Perspective"
+					}
+				}
+			},
+			"cssStyles": ["v1/ext/Quick_Perspective/index.css"]
+		}]
+	}]
+}
