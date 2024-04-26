@@ -14,12 +14,16 @@
   "devDependencies": {
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.8.7",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
     "@babel/preset-env": "^7.8.7",
     "@babel/preset-react": "^7.8.3",
     "babel-minify": "^0.5.1",
     "copy-and-watch": "^0.1.4",
     "eslint": "^4.7.2",
-    "@babel/plugin-proposal-class-properties": "^7.8.3",
     "showdown": "^1.9.1"
+  },
+  "dependencies": {
+    "file-saver": "^2.0.5",
+    "jszip": "^3.10.1"
   }
 }
